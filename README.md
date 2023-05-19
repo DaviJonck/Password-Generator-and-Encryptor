@@ -19,9 +19,9 @@ Please Select an option:
 ## How it work to generate the password 
 
 The program start asking for the password access that is "teste"
-`	private static final String ACCESS_PASSWORD = "teste"; `
+```	private static final String ACCESS_PASSWORD = "teste"; ```
 Then it will ask how many digits you want in your new password.
-` Type the size of the password you want: `
+``` Type the size of the password you want: ```
 After that it will ask four question. 
 * INCLUDE UPPER CASE ? (S/N)
 * INCLUDE LOWER CASE ? (S/N)
@@ -34,7 +34,7 @@ Password Generate: b0xVEh
 DESCRIPTION FOR THE PASSWORD:
 ```
 Now you will type something like **Facebook Password** and i will ask for the path where you created an .txt or .csv file. 
-` D:\Program Files\password.csv ` This is what you gonna type - The path and the file name **password.csv**
+``` D:\Program Files\password.csv ``` This is what you gonna type - The path and the file name **password.csv**
 
 
 `PASSWORD SAVED`
@@ -47,10 +47,10 @@ Now if you go to this file all the passwords that you created are gonna be crypt
 `File outputFile = new File("C:\\Users\\davij\\OneDrive\\decrypted_password.csv");` 
 
 The program will ask for the password to start
-`private static final String ACCESS_PASSWORD= "decryptPasswords";`
+```private static final String ACCESS_PASSWORD= "decryptPasswords";```
 After you type decryptPasswords the program will start.
 Now you have to write the path where the file with the passwords is:
-`D:\Program Files\password.csv`
+```D:\Program Files\password.csv```
 
 After that it will show all the passwords decrypted in this file and create an new file called **decrypted_password.csv**
 This file will be deleted in 30 seconds for your safe.
